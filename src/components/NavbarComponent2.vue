@@ -70,16 +70,14 @@
           <li><router-link to="/digital" class="nav-item"
               :class="{ 'active': isActive('/digital') }">Digital</router-link>
           </li>
-          <li><router-link to="/services" class="nav-item"
-              :class="{ 'active': isActive('/services') }">Insights</router-link>
+          <li><router-link to="/insight" class="nav-item"
+              :class="{ 'active': isActive('/insight') }">Insights</router-link>
           </li>
           <li><router-link to="/services" class="nav-item" :class="{ 'active': isActive('/services') }">Our
               Experts</router-link></li>
-          <li><router-link to="/services" class="nav-item"
-              :class="{ 'active': isActive('/services') }">Careers</router-link>
-          </li>
-          <li><router-link to="/services" class="nav-item"
-              :class="{ 'active': isActive('/services') }">Careers</router-link>
+
+          <li><router-link to="/promotion" class="nav-item"
+              :class="{ 'active': isActive('/promotion') }">Promotion</router-link>
           </li>
         </ul>
         <div class="search">
@@ -133,12 +131,12 @@
         </li>
         <li><router-link to="/digital" class="nav-item" :class="{ 'active': isActive('/digital') }"
             @click="closeSidebar">Digital</router-link></li>
-        <li><router-link to="/insights" class="nav-item" :class="{ 'active': isActive('/insights') }"
+        <li><router-link to="/insight" class="nav-item" :class="{ 'active': isActive('/insight') }"
             @click="closeSidebar">Insights</router-link></li>
         <li><router-link to="/our-experts" class="nav-item" :class="{ 'active': isActive('/our-experts') }"
             @click="closeSidebar">Our Experts</router-link></li>
-        <li><router-link to="/careers" class="nav-item" :class="{ 'active': isActive('/careers') }"
-            @click="closeSidebar">Careers</router-link></li>
+        <li><router-link to="/promotion" class="nav-item" :class="{ 'active': isActive('/promotion') }"
+            @click="closeSidebar">Promotion</router-link></li>
       </ul>
     </div>
 

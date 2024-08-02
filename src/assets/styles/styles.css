@@ -7,6 +7,8 @@ body {
 }
 
 :root {
+  --light-grey: #32414e;
+  --background-overlay: #32414ec2;
   --dark-grey: #333;
   --primary-color: #0067B1;
   --background-light: #F6F6F6;
@@ -717,11 +719,13 @@ p {
   height: 820px;
   overflow: hidden;
 }
-@media(max-width:1025px){
-  .video-background{
+
+@media(max-width:1025px) {
+  .video-background {
     height: 700px;
   }
 }
+
 .video-background video {
   /* filter: grayscale(70%) brightness(80%); */
   position: absolute;
@@ -1449,7 +1453,7 @@ p {
 }
 
 .footer-container {
-  background-color: var(--dark-bluish);
+  background-color: var(--darkish-blue);
   color: var(--white-color);
   padding: 20px 0;
   display: flex;
@@ -1502,7 +1506,6 @@ p {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  background-color: var(--dark-bluish);
 }
 
 .footer-logo,
@@ -1884,11 +1887,13 @@ p {
   margin-left: auto;
   margin-right: auto;
 }
+
 .bread-crums p {
   margin-top: 10px;
   margin-bottom: 20px;
   color: var(--dark-color);
 }
+
 .bread-crums-2 p {
   margin-top: 10px;
   color: var(--white-color);
@@ -2565,5 +2570,320 @@ p {
   .future-image {
     width: 87%;
     height: 38vh;
+  }
+}
+.main-promo{
+  background-image: url('@/assets/images/promo-bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.promo-container {
+  position: relative;
+  width: auto;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 50px;
+}
+@media(max-width:1100px){
+  .promo-container {
+    height: auto;
+  }
+}
+.promo-background-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--background-overlay);
+  /* Adjust the alpha value as needed */
+}
+
+
+.promo-content {
+  position: relative;
+  display: flex;
+  max-width: 1200px;
+  width: 100%;
+  background: transparent;
+}
+
+.promo-left-section {
+  flex: 1;
+  padding: 20px;
+  color: var(--white-color);
+}
+
+.promo-left-section h1 {
+  font-size: 3rem;
+  margin: 30px;
+  text-align: center;
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+
+.promo-left-section p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+  text-align: center;
+  margin: 30px;
+}
+
+.promo-logos {
+  margin-left: -30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border-top: 1px solid var(--white-color);
+}
+@media(max-width:730px){
+  .promo-logos{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+.promo-logos img {
+  margin-top: 20px;
+  border-right: 1px solid var(--white-color);
+  padding-right: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+@media(max-width:730px){
+  .promo-logos img{
+    width: 9rem;
+  }
+}
+.promo-right-section {
+  background: var(--light-grey);
+  padding: 30px;
+  width: 300px;
+}
+
+.promo-right-section h2 {
+  font-size: 1.8em;
+  margin-bottom: 20px;
+}
+
+.promo-right-section form {
+  display: flex;
+  flex-direction: column;
+}
+
+.promo-right-section form textarea {
+  margin-bottom: 15px;
+  padding: 15px;
+  border: none;
+  font-size: 1em;
+}
+
+.promo-right-section form input {
+  padding: 15px;
+  border-bottom: 2px solid var(--light-grey);
+  border-left: 0px solid var(--dark-grey);
+  border-right: 0px solid var(--dark-grey);
+  border-top: 0px solid var(--dark-grey);
+  font-size: 1em;
+}
+
+.promo-right-section form input::placeholder,
+.promo-right-section form textarea::placeholder {
+  color: var(--light-grey);
+  font-size: 12px;
+}
+
+.promo-right-section form .checkboxes label {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: flex-start;
+  color: var(--white-color);
+  font-size: 0.9em;
+}
+
+.promo-right-section form button {
+  padding: 15px;
+  background: var(--accent-color);
+  border: none;
+  color: var(--white-color);
+  font-size: 1.1em;
+  cursor: pointer;
+}
+
+.promo-right-section form button:hover {
+  background: var(--accent-color);
+}
+@media (max-width: 1100px) {
+  .promo-content {
+    margin-top: 350px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .promo-right-section {
+    margin-top: 40px;
+    width: auto;
+  }
+}
+@media (max-width: 768px) {
+  .promo-content {
+    flex-direction: column;
+    margin-top: 131px;
+    align-items: center;
+  }
+
+  .promo-left-section {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+
+}
+
+@media (max-width: 480px) {
+  .promo-left-section h1 {
+    font-size: 2em;
+  }
+
+  .promo-right-section h2 {
+    font-size: 1.5em;
+  }
+}
+
+.promo-right-section p {
+  margin-bottom: 10px;
+  font-size: 14px;
+  text-align: left;
+  color: var(--white-color);
+}
+
+.promo-right-section h2 {
+  margin: 10px;
+  text-align: center;
+  color: var(--white-color);
+}
+.promo-left-section button{
+  display:none;
+}
+@media(max-width:700px){
+  .promo-left-section button{
+    display: block;
+  }
+}
+.promo-dp-container {
+  padding: 20px;
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+.promo-dp h2 {
+  color: #8bc53f; /* Your desired color */
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.promo-dp p {
+  font-size: 1em;
+  line-height: 1.6;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.promo-dp ul {
+  padding-left: 20px;
+  color: #333;
+}
+
+.promo-dp li {
+  margin-bottom: 10px;
+}
+
+.promo-dp strong {
+  font-weight: bold;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .promo-dp-container {
+    padding: 10px;
+  }
+
+  .promo-dp h2 {
+    font-size: 1.2em;
+  }
+
+  .promo-dp p, li {
+    font-size: 0.9em;
+  }
+}
+.cost-calculator {
+
+  background-color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.cost-calculator h2 {
+  color: #8bc34a;
+}
+
+.cost-calculator table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.cost-calculator th, .cost-calculator td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.cost-calculator th {
+  background-color: #f9f9f9;
+}
+
+.cost-calculator .note {
+  margin-top: 20px;
+  font-size: 0.9em;
+  color: #666;
+}
+
+@media (max-width: 600px) {
+  .cost-calculator table, .cost-calculator thead, .cost-calculator tbody, .cost-calculator th, .cost-calculator td, .cost-calculator tr {
+    display: block;
+  }
+  
+  .cost-calculator thead tr {
+    display: none;
+  }
+
+  .cost-calculator tr {
+    margin-bottom: 10px;
+  }
+
+  .cost-calculator td {
+    border: none;
+    position: relative;
+    padding-left: 50%;
+    text-align: right;
+  }
+
+  .cost-calculator td:before {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: calc(50% - 20px);
+    white-space: nowrap;
+    content: attr(data-label);
+    text-align: left;
+    font-weight: bold;
   }
 }

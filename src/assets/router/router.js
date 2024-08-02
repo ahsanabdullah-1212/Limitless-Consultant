@@ -5,6 +5,8 @@ const routes = [
   { path: '/services', name: 'ServicesPage', component: () => import('../pages/ServicesPage.vue') },
   { path: '/industries', name: 'IndustryPage', component: () => import('../pages/IndustryPage.vue') },
   { path: '/digital', name: 'DigitalPage', component: () => import('../pages/DigitalPage.vue') },
+  { path: '/insight', name: 'InsightPage', component: () => import('../pages/InsightPage.vue') },
+  { path: '/promotion', name: 'PromotionPage', component: () => import('../pages/PromotionPage.vue') },
 ];
 
 const router = createRouter({
