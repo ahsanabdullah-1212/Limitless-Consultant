@@ -16,12 +16,6 @@
             </div>
             <h1>Our Services</h1>
         </div>
-        <div class="serving-search">
-            <div class="serving-search-container">
-                <input type="text" placeholder="Search Services" class="search-input" />
-                <font-awesome-icon :icon="['fas', 'search']" class="serving-search-icon" />
-            </div>
-        </div>
         <div class="serving-description">
             <div class="serve-p">
                 <p>

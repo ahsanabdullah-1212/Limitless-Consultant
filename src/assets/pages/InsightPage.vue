@@ -1,7 +1,7 @@
 <template>
     <div>
       <NavbarComponent/>
-      <IndustrialPage/>
+      <ImageSlider2/>
       <FooterContainer/>
       <router-view/>
     </div>
@@ -11,7 +11,7 @@
 
 import NavbarComponent from '@/components/NavbarComponent.vue'
 import FooterContainer from '@/components/FooterContainer.vue'
-import IndustrialPage from '@/components/IndustrialPage.vue'
+import ImageSlider2 from '@/components/ImageSlider2.vue'
 
   export default {
     name: 'InsightPage',
@@ -19,7 +19,7 @@ import IndustrialPage from '@/components/IndustrialPage.vue'
     components: {
      NavbarComponent,
      FooterContainer,
-     IndustrialPage,
+     ImageSlider2,
     }
   }
   </script>

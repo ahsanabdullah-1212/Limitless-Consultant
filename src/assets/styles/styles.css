@@ -2077,7 +2077,7 @@ p {
 }
 
 .serve-p p {
-  margin: 10px;
+  margin: 40px;
   font-size: 20px;
   margin-bottom: 30px;
 }
@@ -2236,6 +2236,7 @@ p {
 }
 
 .parent-future {
+  margin-top: -24px;
   background-color: var(--darkish-blue);
   background-image: radial-gradient(47.71% 50% at 50% 50%, #003763bf, #00376300);
 }
@@ -2674,7 +2675,11 @@ p {
     font-size: 1.5rem;
   }
 }
-
+@media(max-width:340px) {
+  .promo-left-section h1 {
+    font-size: 1rem;
+  }
+}
 .promo-left-section p {
   font-size: 1.2em;
   margin-bottom: 30px;
@@ -2687,7 +2692,11 @@ p {
     font-size: 1rem;
   }
 }
-
+@media(max-width:340px) {
+  .promo-left-section p {
+    font-size: 0.7rem;
+  }
+}
 .promo-logos {
   margin-left: -30px;
   display: flex;
@@ -2807,10 +2816,6 @@ p {
 }
 
 @media (max-width: 480px) {
-  .promo-left-section h1 {
-    font-size: 1.5em;
-  }
-
   .promo-right-section h2 {
     font-size: 1.5em;
   }

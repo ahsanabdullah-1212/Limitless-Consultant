@@ -6,6 +6,7 @@
       <ExpertiseBoxes/>
       <CustomizeSolution/>
       <CapabilityBoxes/>
+      <CanvaElemt/>
       <DigitalFuture/>
       <FooterContainer/>
       <router-view/>
@@ -14,6 +15,7 @@
   
   <script>
 
+import CanvaElemt from '@/components/CanvaElemt.vue'
 import ExpertiseDeliver from '@/components/ExpertiseDeliver.vue'
 import DigitalFuture from '@/components/DigitalFuture.vue'
 import CapabilityBoxes from '@/components/CapabilityBoxes.vue'
@@ -27,6 +29,7 @@ import DigitalHero from '@/components/DigitalHero.vue'
     name: 'ServicesPage',
 
     components: {
+      CanvaElemt,
      NavbarComponent2,
      DigitalFuture,
      ExpertiseDeliver,
