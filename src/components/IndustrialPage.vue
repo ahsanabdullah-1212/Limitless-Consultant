@@ -25,7 +25,7 @@
         <div class="serving-description">
             <div class="serve-p">
                 <p>
-                    FTI Consulting UK provides the knowledge, focus and skill to help clients compete in a global
+                     Consulting UK provides the knowledge, focus and skill to help clients compete in a global
                     economy where success crosses industries and borders. Our UK consulting professionals recognise the
                     interrelationships among global industries and deliver breadth and depth of experience.
                 </p>

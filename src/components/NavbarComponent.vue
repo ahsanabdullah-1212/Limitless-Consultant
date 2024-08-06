@@ -15,7 +15,7 @@
             <font-awesome-icon :icon="['fas', 'plus']" :class="{ 'rotate': isServicesDropdownOpen }"
               class="plus-icon" />
             <ul :class="{ 'active': isServicesDropdownOpen }" class="dropdown-sidebar-menu">
-              <li><router-link to="" class="nav-item" :class="{ 'active': isActive('') }">Antitrust</router-link></li>
+              <li><router-link to="/accounting" class="nav-item" :class="{ 'active': isActive('/services') }">Accounting</router-link></li>
               <li><router-link to="" class="nav-item" :class="{ 'active': isActive('') }">Artificial
                   Intelligence</router-link></li>
               <li><router-link to="" class="nav-item" :class="{ 'active': isActive('') }">Blockchain & Digital
@@ -42,8 +42,8 @@
             <router-link to="/services" class="nav-item"
               :class="{ 'active': isActive('/services') }">Services</router-link>
             <ul :class="{ 'active': isServicesDropdownOpen }" class="dropdown-menu">
-              <li><router-link to="/services" class="nav-item"
-                  :class="{ 'active': isActive('/services') }">Antitrust</router-link></li>
+              <li><router-link to="/accounting" class="nav-item"
+                  :class="{ 'active': isActive('/services') }">Accounting</router-link></li>
               <li><router-link to="/services" class="nav-item" :class="{ 'active': isActive('/services') }">Artificial
                   Intelligence</router-link></li>
               <li><router-link to="/services" class="nav-item" :class="{ 'active': isActive('/services') }">Blockchain &
@@ -77,7 +77,7 @@
               Experts</router-link></li>
 
           <li><router-link to="/promotion" class="nav-item"
-              :class="{ 'active': isActive('/promotion') }">Promotion</router-link>
+              :class="{ 'active': isActive('/promotion') }">Sponsor license</router-link>
           </li>
         </ul>
         <div class="search">
@@ -103,8 +103,8 @@
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           <font-awesome-icon :icon="['fas', 'plus']" :class="{ 'rotate': isServicesDropdownOpen }" class="plus-icon" />
           <ul :class="{ 'active': isServicesDropdownOpen }" class="dropdown-sidebar-menu">
-            <li><router-link to="/services" class="nav-item" :class="{ 'active': isActive('/services') }"
-                @click="closeSidebar">Antitrust</router-link></li>
+            <li><router-link to="/accounting" class="nav-item" :class="{ 'active': isActive('/services') }"
+                @click="closeSidebar">Accounting</router-link></li>
             <li><router-link to="/services" class="nav-item" :class="{ 'active': isActive('/services') }"
                 @click="closeSidebar">Artificial Intelligence</router-link></li>
             <li><router-link to="/services" class="nav-item" :class="{ 'active': isActive('/services') }"
@@ -136,7 +136,7 @@
         <li><router-link to="/our-experts" class="nav-item" :class="{ 'active': isActive('/our-experts') }"
             @click="closeSidebar">Our Experts</router-link></li>
         <li><router-link to="/promotion" class="nav-item" :class="{ 'active': isActive('/promotion') }"
-            @click="closeSidebar">Promotion</router-link></li>
+            @click="closeSidebar">Sponsor license</router-link></li>
       </ul>
     </div>
 

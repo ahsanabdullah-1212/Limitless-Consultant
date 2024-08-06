@@ -2,7 +2,7 @@
     <div class="main-footer">
         <div class="cta">
             <div class="cta-section">
-                <h2>Sign up to get access to FTI Consulting Insights</h2>
+                <h2>Sign up to get access to LC & BA Insights</h2>
                 <a href="#">Subscribe</a>
             </div>
         </div>
@@ -10,7 +10,7 @@
             <div class="footer-content">
                 <div class="footer-logo">
                     <img src="@/assets/images/footer.png" alt="Logo">
-                    <p>&copy; 2024 FTI Consulting, Inc., including its subsidiaries and affiliates, is a consulting firm
+                    <p>&copy; 2024 LC & BA, Inc., including its subsidiaries and affiliates, is a consulting firm
                         and is not a certified public accounting firm or a law firm. All Rights Reserved.</p>
                 </div>
                 <div class="footer-links">
@@ -24,7 +24,7 @@
                     <a href="#">Careers</a>
                 </div>
                 <div class="footer-links">
-                    <a href="#">About FTI</a>
+                    <a href="#">About LC & BA</a>
                     <a href="#">News</a>
                     <a href="#">Investor Relations</a>
                 </div>

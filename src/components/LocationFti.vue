@@ -43,55 +43,7 @@
         </div>
         <div class="location-details">
             <div class="locations-container">
-                <h2>Our Locations</h2>
-                <div class="location-grid">
-                    <div class="location-item">
-                        <h3>London</h3>
-                        <p>
-                            200 Aldersgate<br />
-                            Aldersgate Street<br />
-                            London EC1A 4HD<br />
-                            United Kingdom<br />
-                            <span>Tel: +44 20 3727 1000</span><br />
-                            <span>Fax: +44 20 3727 1007</span>
-                        </p>
-                    </div>
-                    <div class="location-item">
-                        <h3>Manchester</h3>
-                        <p>
-                            Industrious, Floor 3 -<br />
-                            Team Studio 306<br />
-                            Landmark St Peter's Square<br />
-                            1 Oxford Street<br />
-                            Manchester M1 4BP<br />
-                            United Kingdom<br />
-                            <span>Tel: +44 20 3727 1000</span>
-                        </p>
-                    </div>
-                </div>
-                <div class="location-grid">
-                    <div class="location-item">
-                        <h3>London - CL</h3>
-                        <p>
-                            5 Aldermanbury Square<br />
-                            Level 14<br />
-                            London EC2V 7HR<br />
-                            United Kingdom<br />
-                            <span>Tel: +44 20 3932 9600</span>
-                        </p>
-                    </div>
-                    <div class="location-item">
-                        <h3>Stirling</h3>
-                        <p>
-                            Unit C, First Floor<br />
-                            Logie Court<br />
-                            Stirling University Innovation Park<br />
-                            Stirling FK9 4NF<br />
-                            United Kingdom<br />
-                            <span>Tel: +44 1786 430800</span>
-                        </p>
-                    </div>
-                </div>
+                <h1>Using remote locations helping to grow our clients digitally</h1>
             </div>
         </div>
     </div>

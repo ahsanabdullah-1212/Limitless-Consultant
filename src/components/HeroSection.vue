@@ -10,7 +10,7 @@
                 <h1>United Kingdom</h1>
             </div>
             <div class="hero-description">
-                <p>FTI Consulting brings together over 40 years of industry experience, distinct capabilities and deep
+                <p>LC & BA brings together over 40 years of industry experience, distinct capabilities and deep
                     technical excellence. We have more than 8,000+ experts located in 33 countries and territories and
                     87
                     cities across the globe. We offer a comprehensive range of services in business transformation &

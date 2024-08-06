@@ -3,7 +3,6 @@
       <NavbarComponent2 />
       <HeroSection/>
       <RatingComponent/>
-      <RatingBoxes/>
       <ClientWork/>
       <SpotlightDetails/>
       <NewsConsult/>
@@ -20,7 +19,6 @@
   import NavbarComponent2 from '@/components/NavbarComponent2.vue'
   import HeroSection from '@/components/HeroSection.vue'
   import RatingComponent from '@/components/RatingComponent.vue'
-  import RatingBoxes from '@/components/RatingBoxes.vue'
   import ClientWork from '@/components/ClientWork.vue'
   import SpotlightDetails from '@/components/SpotlightDetails.vue'
   import NewsConsult from '@/components/NewsConsult.vue'
@@ -34,7 +32,6 @@
       NavbarComponent2,
       HeroSection,
       RatingComponent,
-      RatingBoxes,
       ClientWork,
       SpotlightDetails,
       NewsConsult,

@@ -41,7 +41,7 @@
                 <img src="@/assets/images/Lion.jpeg" alt="F-1">
                 <div class="workingcard-body">
                     <h3>Solving the UK Fraud Problem</h3>
-                    <p>June 06, 2024—The UK is in the grip of a silent epidemic: fraud. FTI Consulting discuss how
+                    <p>June 06, 2024—The UK is in the grip of a silent epidemic: fraud. LC & BA   discuss how
                         reward, retribution and restitution could help</p>
                     <h3>Read Article <font-awesome-icon :icon="['fas', 'arrow-right']" class="arrow" /></h3>
                 </div>

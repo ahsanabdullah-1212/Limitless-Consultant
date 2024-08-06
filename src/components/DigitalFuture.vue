@@ -9,7 +9,7 @@
                 <div class="future-dsp">
                     <p>Engagements that shape history.
                         Careers that shape your future.</p>
-                    <p>Explore Life at FTI&rarr;</p>
+                    <p>Explore Life at LC & BA&rarr;</p>
                 </div>
             </div>
             <div class="future-column-2">

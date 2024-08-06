@@ -7,6 +7,7 @@ const routes = [
   { path: '/digital', name: 'DigitalPage', component: () => import('../pages/DigitalPage.vue') },
   { path: '/insight', name: 'InsightPage', component: () => import('../pages/InsightPage.vue') },
   { path: '/promotion', name: 'PromotionPage', component: () => import('../pages/PromotionPage.vue') },
+  { path: '/accounting', name: 'AccountingPage', component: () => import('../pages/AccountingPage.vue') },
 ];
 
 const router = createRouter({

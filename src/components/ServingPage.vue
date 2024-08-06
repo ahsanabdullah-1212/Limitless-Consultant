@@ -25,10 +25,10 @@
         <div class="serving-description">
             <div class="serve-p">
                 <p>
-                    FTI Consulting UK understands that to help meet client challenges and opportunities successfully in
+                    LC & BA UK understands that to help meet client challenges and opportunities successfully in
                     a
                     global economy, you must have a full arsenal of capabilities and experience available at a moment’s
-                    notice. Our strategic offices in the United Kingdom and worldwide ensure that FTI Consulting is
+                    notice. Our strategic offices in the United Kingdom and worldwide ensure that LC & BA is
                     available for your needs.
                 </p>
             </div>

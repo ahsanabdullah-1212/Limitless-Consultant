@@ -1,7 +1,7 @@
 <template>
     <div class="promo-dp-container">
         <section class="section">
-            <h2>Can I Do It Myself?</h2>
+            <h2 class="promo-head">Can I Do It Myself?</h2>
             <p>
                 We often get asked this question, and while the answer is technically “yes,” there are critical factors
                 to consider as the UK immigration system can be complex to navigate.
@@ -18,7 +18,7 @@
             </p>
         </section>
         <section class="section">
-            <h2>Am I eligible for a sponsor licence</h2>
+            <h2 class="promo-head">Am I eligible for a sponsor licence</h2>
             <p>To be eligible for a Sponsor Licence, the Home Office has set the following criteria:</p>
             <h3>Basic Requirements</h3>
             <ul>
@@ -46,7 +46,7 @@
             </ul>
         </section>
         <section class="section">
-            <h2>Mandatory Documents</h2>
+            <h2 class="promo-head">Mandatory Documents</h2>
             <p>To apply for a UK Sponsor Licence, you will be required to submit at least 4 mandatory documents. These
                 include but are not limited to:</p>
             <ul>
@@ -61,7 +61,7 @@
                     <strong>3.</strong>HMRC registration for PAYE/National Insurance
                 </li>
                 <li>
-                    <strong>5.</strong>Employer’s liability insurance certificate or a proof of ownership of business
+                    <strong>4.</strong>Employer’s liability insurance certificate or a proof of ownership of business
                     premises
                     <p>If you wish to apply for worker Sponsor Licence, there are mandatory documents as per the
                         specific route of Licence you are applying for.</p>
@@ -70,7 +70,7 @@
             </ul>
         </section>
         <section class="section">
-            <h2>Skilled Worker Route Salary Threshold:</h2>
+            <h2 class="promo-head">Skilled Worker Route Salary Threshold:</h2>
             <ul>
                 <li>
                     <strong>4 April 2024, the salary threshold for new applications has been increased to £38,700.
@@ -86,7 +86,7 @@
             </ul>
         </section>
         <section class="section">
-            <h2>Sponsor Licence Fees and Cost Calculator</h2>
+            <h2 class="promo-head">Sponsor Licence Fees and Cost Calculator</h2>
             <p>To sponsor a migrant worker, a business must hold a sponsor licence issued by the Home Office. The fee
                 for a skilled worker sponsor licence varies depending on the type of organisation. Here’s an overview:
             </p>
@@ -113,7 +113,7 @@
             </ul>
         </section>
         <section class="section">
-            <h2>Certificate of Sponsorship Issue Fee</h2>
+            <h2 class="promo-head">Certificate of Sponsorship Issue Fee</h2>
             <p>A Certificate of Sponsorship (CoS) is required by the sponsor to sponsor a worker. While there are no
                 fees for making a CoS request, there is a non-refundable issue fee of £239, when assigning the CoS to
                 the identified worker.
@@ -155,8 +155,8 @@
             </section>
         </section>
         <section class="section">
-            <h2>Why Choose AY & J Solicitors to apply for sponsor licence?</h2>
-            <p>With extensive experience and thousands of 5-star reviews, A Y & J Solicitors are the experts you need.
+            <h2 class="promo-head">Why Choose LC & BA to apply for sponsor licence?</h2>
+            <p>With extensive experience and thousands of 5-star reviews, LC & BA are the experts you need.
                 We handle the entire process, saving you time and stress. Our team can be assigned to key roles if
                 needed, guiding you on the necessary documentation, processing and submitting your application, and
                 conducting HR checks and audits. We simplify Home Office rules and regulations, ensuring you understand
@@ -165,7 +165,7 @@
             <h3>Basic Requirements</h3>
         </section>
         <section class="section">
-            <h2>Secure Your UK Sponsor Licence with FREE HRMS Software</h2>
+            <h2 class="promo-head">Secure Your UK Sponsor Licence with FREE HRMS Software</h2>
             <p>Applying for a UK Sponsor Licence can be complex without robust HRMS, but we make it simple. Maximize
                 compliance and efficiency with our cutting-edge HRMS, yours absolutely free when you hire us for your
                 sponsor licence application. Here’s what our powerful HRMS offers:
@@ -191,6 +191,46 @@
                     Scotland, and Northern Ireland, or well as tax-exempt organisations and ecclesiastical corporations
                     with charitable aims</p>
             </ul>
+        </section>
+        <section class="section-client">
+            <div class="client-process">
+                <h2 class="promo-head">Our Client Process</h2>
+                <div class="steps">
+                    <div class="step">
+                        <div class="number">1</div>
+                        <div class="step-image">
+                            <img src="@/assets/images/chat-icon.png" alt="">
+                        </div>
+                        <h3>Free case evaluation</h3>
+                        <p>
+                            All new clients receive a free case evaluation with our team to help them understand their
+                            legal issues and to determine whether we are right for each other.
+                        </p>
+                    </div>
+                    <div class="step">
+                        <div class="number">2</div>
+                        <div class="step-image">
+                            <img src="@/assets/images/handshake-icon.png" alt="">
+                        </div>
+                        <h3>1-Hour case consultation</h3>
+                        <p>
+                            During the consultation, the client and lawyer develop a roadmap for the success resolution
+                            of the case.
+                        </p>
+                    </div>
+                    <div class="step">
+                        <div class="number">3</div>
+                        <div class="step-image">
+                            <img src="@/assets/images/auction-icon.png" alt="">
+                        </div>
+                        <h3>Case management</h3>
+                        <p>
+                            The client case is handled with an extreme focus on the client’s needs and how to most
+                            effectively and efficiently meet those needs and goals for the case.
+                        </p>
+                    </div>
+                </div>
+            </div>
         </section>
     </div>
 </template>
