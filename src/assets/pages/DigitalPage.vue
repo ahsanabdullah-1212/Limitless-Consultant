@@ -1,20 +1,22 @@
 <template>
-    <div>
-      <NavbarComponent2/>
-      <DigitalHero/>
-      <ExpertiseDeliver/>
-      <ExpertiseBoxes/>
-      <CustomizeSolution/>
-      <CapabilityBoxes/>
-      <CanvaElemt/>
-      <DigitalFuture/>
-      <FooterContainer/>
-      <router-view/>
-    </div>
-  </template>
-  
-  <script>
+  <div>
+    <NavbarComponent2 />
+    <DigitalHero />
+    <ExpertiseDeliver />
+    <ExpertiseBoxes />
+    <CustomizeSolution />
+    <CapabilityBoxes />
+    <CanvaElemt />
+    <DigitalFuture />
+    <BeFirst />
+    <FooterContainer />
+    <router-view />
+  </div>
+</template>
 
+<script>
+
+import BeFirst from '@/components/BeFirst.vue'
 import CanvaElemt from '@/components/CanvaElemt.vue'
 import ExpertiseDeliver from '@/components/ExpertiseDeliver.vue'
 import DigitalFuture from '@/components/DigitalFuture.vue'
@@ -25,21 +27,20 @@ import FooterContainer from '@/components/FooterContainer.vue'
 import ExpertiseBoxes from '@/components/ExpertiseBoxes.vue'
 import DigitalHero from '@/components/DigitalHero.vue'
 
-  export default {
-    name: 'ServicesPage',
+export default {
+  name: 'ServicesPage',
 
-    components: {
-      CanvaElemt,
-     NavbarComponent2,
-     DigitalFuture,
-     ExpertiseDeliver,
-     CapabilityBoxes,
-     ExpertiseBoxes,
-     FooterContainer,
-     CustomizeSolution,
-     DigitalHero,
-    }
+  components: {
+    BeFirst,
+    CanvaElemt,
+    NavbarComponent2,
+    DigitalFuture,
+    ExpertiseDeliver,
+    CapabilityBoxes,
+    ExpertiseBoxes,
+    FooterContainer,
+    CustomizeSolution,
+    DigitalHero,
   }
-  </script>
-
-  
+}
+</script>

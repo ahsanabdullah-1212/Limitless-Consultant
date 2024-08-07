@@ -12,58 +12,115 @@
                     <div class="card">
                         <div class="card-description">
                             <h1>Protect</h1>
+                            <div class="bg-tangerine h-0.5 w-6"></div>
                             <p>Learn how we’re helping organizations proactively manage emerging risks and protect value
                                 in a constantly shifting, complex digital environment.</p>
                             <h3>Case Studies</h3>
-                            <p>=> Extensive Data Identification, Analysis and Extraction in Response to Consumer
+                            <p>-> Extensive Data Identification, Analysis and Extraction in Response to Consumer
                                 Services Privacy Breach</p>
-                            <p>=> Rapid Insights Across Millions of Documents from Emerging Data Sources in IP Theft
+                            <p>-> Rapid Insights Across Millions of Documents from Emerging Data Sources in IP Theft
                                 Matter</p>
-                            <p>=> Neutralizing Data Privacy Challenges For U.S. Division of European Pharma and Medical
+                            <p>-> Neutralizing Data Privacy Challenges For U.S. Division of European Pharma and Medical
                                 Device Company</p>
                         </div>
                     </div>
                     <div class="card">
                         <div class="card-description">
                             <h1>Respond</h1>
+                            <div class="bg-tangerine h-0.5 w-6"></div>
                             <p>Our experts help organizations stay competitive with the latest digital technologies —
                                 and ahead of the multifaceted risks they can present.</p>
                             <h3>Case Studies</h3>
-                            <p>=> Extensive Data Identification, Analysis and Extraction in Response to Consumer
+                            <p>-> Extensive Data Identification, Analysis and Extraction in Response to Consumer
                                 Services Privacy Breach</p>
-                            <p>=> Rapid Insights Across Millions of Documents from Emerging Data Sources in IP Theft
+                            <p>-> Rapid Insights Across Millions of Documents from Emerging Data Sources in IP Theft
                                 Matter</p>
-                            <p>=> Neutralizing Data Privacy Challenges For U.S. Division of European Pharma and Medical
+                            <p>-> Neutralizing Data Privacy Challenges For U.S. Division of European Pharma and Medical
                                 Device Company</p>
                         </div>
                     </div>
                     <div class="card">
                         <div class="card-description">
-                            <h1>Protect</h1>
-                            <p>Learn how we’re helping organizations proactively manage emerging risks and protect value
-                                in a constantly shifting, complex digital environment.</p>
+                            <h1>Transform</h1>
+                            <div class="bg-tangerine h-0.5 w-6"></div>
+                            <p>Across engagements, we focus on sustained value creation, leveraging advanced
+                                technologies to equip organizations for the future..</p>
                             <h3>Case Studies</h3>
-                            <p>=> Extensive Data Identification, Analysis and Extraction in Response to Consumer
-                                Services Privacy Breach</p>
-                            <p>=> Rapid Insights Across Millions of Documents from Emerging Data Sources in IP Theft
-                                Matter</p>
-                            <p>=> Neutralizing Data Privacy Challenges For U.S. Division of European Pharma and Medical
-                                Device Company</p>
+                            <p>-> Modernizing the Data Warehouse of a Statewide Healthcare System</p>
+                            <p>-> Building the Digital Supply Chain Foundation for TelevisaUnivision</p>
+                            <p>-> Automating the Loan Workout Process for National Bank</p>
                         </div>
                     </div>
                     <div class="card">
                         <div class="card-description">
-                            <h1>Protect</h1>
-                            <p>Learn how we’re helping organizations proactively manage emerging risks and protect value
-                                in a constantly shifting, complex digital environment.</p>
+                            <h1>Grow</h1>
+                            <div class="bg-tangerine h-0.5 w-6"></div>
+                            <p>As advanced technologies reshape the digital landscape, our expert-led, impact-driven
+                                approach helps businesses realize tangible value..</p>
                             <h3>Case Studies</h3>
-                            <p>=> Extensive Data Identification, Analysis and Extraction in Response to Consumer
-                                Services Privacy Breach</p>
-                            <p>=> Rapid Insights Across Millions of Documents from Emerging Data Sources in IP Theft
-                                Matter</p>
-                            <p>=> Neutralizing Data Privacy Challenges For U.S. Division of European Pharma and Medical
-                                Device Company</p>
+                            <p>-> Building Geographical Analysis & Visualization Tool for EVs</p>
+                            <p>-> Empowering Growth and Boosting Valuation Through a Strategic Tech Acquisition</p>
+                            <p>-> Positioning a $3 Billion IT Services Provider for Additional Growth</p>
                         </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="cards-small">
+            <div class="cards">
+                <div class="card">
+                    <div class="card-description">
+                        <h1>Protect</h1>
+                        <div class="bg-tangerine h-0.5 w-6"></div>
+                        <p>Learn how we’re helping organizations proactively manage emerging risks and protect value
+                            in a constantly shifting, complex digital environment.</p>
+                        <h3>Case Studies</h3>
+                        <p>-> Extensive Data Identification, Analysis and Extraction in Response to Consumer
+                            Services Privacy Breach</p>
+                        <p>-> Rapid Insights Across Millions of Documents from Emerging Data Sources in IP Theft
+                            Matter</p>
+                        <p>-> Neutralizing Data Privacy Challenges For U.S. Division of European Pharma and Medical
+                            Device Company</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-description">
+                        <h1>Respond</h1>
+                        <div class="bg-tangerine h-0.5 w-6"></div>
+                        <p>Our experts help organizations stay competitive with the latest digital technologies —
+                            and ahead of the multifaceted risks they can present.</p>
+                        <h3>Case Studies</h3>
+                        <p>-> Extensive Data Identification, Analysis and Extraction in Response to Consumer
+                            Services Privacy Breach</p>
+                        <p>-> Rapid Insights Across Millions of Documents from Emerging Data Sources in IP Theft
+                            Matter</p>
+                        <p>-> Neutralizing Data Privacy Challenges For U.S. Division of European Pharma and Medical
+                            Device Company</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-description">
+                        <h1>Transform</h1>
+                        <div class="bg-tangerine h-0.5 w-6"></div>
+                        <p>Across engagements, we focus on sustained value creation, leveraging advanced
+                            technologies to equip organizations for the future..</p>
+                        <h3>Case Studies</h3>
+                        <p>-> Modernizing the Data Warehouse of a Statewide Healthcare System</p>
+                        <p>-> Building the Digital Supply Chain Foundation for TelevisaUnivision</p>
+                        <p>-> Automating the Loan Workout Process for National Bank</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-description">
+                        <h1>Grow</h1>
+                        <div class="bg-tangerine h-0.5 w-6"></div>
+                        <p>As advanced technologies reshape the digital landscape, our expert-led, impact-driven
+                            approach helps businesses realize tangible value..</p>
+                        <h3>Case Studies</h3>
+                        <p>-> Building Geographical Analysis & Visualization Tool for EVs</p>
+                        <p>-> Empowering Growth and Boosting Valuation Through a Strategic Tech Acquisition</p>
+                        <p>-> Positioning a $3 Billion IT Services Provider for Additional Growth</p>
                     </div>
                 </div>
             </div>
@@ -162,15 +219,57 @@ export default {
 </script>
 
 <style scoped>
+.bg-tangerine {
+    height: 3px;
+    width: 20px;
+    margin-left: 19px;
+    margin-top: -17px;
+    margin-bottom: 17px;
+    --tw-bg-opacity: 1;
+    background-color: rgb(225 82 61 / var(--tw-bg-opacity));
+}
+.cards-small {
+    display: none;
+}
+
+@media(max-width:800px) {
+    .cards-small {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.card-description p {
+    font-size: 0.9rem;
+    padding: 10px;
+}
+
+.card-description h1 {
+    font-size: 1.7rem;
+    padding: 20px;
+}
+
+.card-description h3 {
+    color: var(--light-grey);
+    font-size: 1.1rem;
+    padding: 20px;
+}
+
 .outer-container {
     position: relative;
-    height: 200vh;
-    margin-bottom: 325px
+    height: auto;
+    background-color: var(--darkish-blue);
 }
 
 .parent {
     display: flex;
     padding-bottom: 50px;
+}
+
+@media(max-width:800px) {
+    .parent {
+        display: none
+    }
 }
 
 .left-wall {
@@ -217,11 +316,10 @@ canvas {
     align-items: center;
     margin-top: 120px;
     border-radius: 22px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 .card {
-    width: 80%;
+    width: 50%;
     margin: 20px 0;
     padding: 20px;
     border-radius: 22px;
@@ -231,5 +329,17 @@ canvas {
     font-size: 1.5em;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     /* Adjust values as needed */
+}
+
+@media(max-width:1450px) {
+    .card {
+        width: 60%
+    }
+}
+
+@media(max-width:1030px) {
+    .card {
+        width: 80%
+    }
 }
 </style>

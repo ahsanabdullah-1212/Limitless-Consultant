@@ -73,8 +73,7 @@
           <li><router-link to="/insight" class="nav-item"
               :class="{ 'active': isActive('/insight') }">Insights</router-link>
           </li>
-          <li><router-link to="/services" class="nav-item" :class="{ 'active': isActive('/services') }">Our
-              Experts</router-link></li>
+          <li><router-link to="/about" class="nav-item" :class="{ 'active': isActive('/about') }">About</router-link></li>
 
           <li><router-link to="/promotion" class="nav-item"
               :class="{ 'active': isActive('/promotion') }">Sponsor license</router-link>
@@ -133,8 +132,8 @@
             @click="closeSidebar">Digital</router-link></li>
         <li><router-link to="/insight" class="nav-item" :class="{ 'active': isActive('/insight') }"
             @click="closeSidebar">Insights</router-link></li>
-        <li><router-link to="/our-experts" class="nav-item" :class="{ 'active': isActive('/our-experts') }"
-            @click="closeSidebar">Our Experts</router-link></li>
+        <li><router-link to="/about" class="nav-item" :class="{ 'active': isActive('/about') }"
+            @click="closeSidebar">About</router-link></li>
         <li><router-link to="/promotion" class="nav-item" :class="{ 'active': isActive('/promotion') }"
             @click="closeSidebar">Sponsor license</router-link></li>
       </ul>

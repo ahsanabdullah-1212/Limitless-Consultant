@@ -8,6 +8,7 @@ const routes = [
   { path: '/insight', name: 'InsightPage', component: () => import('../pages/InsightPage.vue') },
   { path: '/promotion', name: 'PromotionPage', component: () => import('../pages/PromotionPage.vue') },
   { path: '/accounting', name: 'AccountingPage', component: () => import('../pages/AccountingPage.vue') },
+  { path: '/about', name: 'AboutPage', component: () => import('../pages/AboutPage.vue') },
 ];
 
 const router = createRouter({

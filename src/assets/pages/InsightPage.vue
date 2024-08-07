@@ -1,27 +1,28 @@
 <template>
-    <div>
-      <NavbarComponent/>
-      <ImageSlider2/>
-      <FooterContainer/>
-      <router-view/>
-    </div>
-  </template>
-  
-  <script>
+  <div>
+    <NavbarComponent />
+    <ImageSlider2 />
+    <InsightCards />
+    <FooterContainer />
+    <router-view />
+  </div>
+</template>
 
+<script>
+
+import InsightCards from '@/components/InsightCards.vue'
 import NavbarComponent from '@/components/NavbarComponent.vue'
 import FooterContainer from '@/components/FooterContainer.vue'
 import ImageSlider2 from '@/components/ImageSlider2.vue'
 
-  export default {
-    name: 'InsightPage',
+export default {
+  name: 'InsightPage',
 
-    components: {
-     NavbarComponent,
-     FooterContainer,
-     ImageSlider2,
-    }
+  components: {
+    InsightCards,
+    NavbarComponent,
+    FooterContainer,
+    ImageSlider2,
   }
-  </script>
-
-  
+}
+</script>
