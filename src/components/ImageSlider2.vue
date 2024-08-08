@@ -140,6 +140,7 @@ input[type="radio"] {
 }
 
 label {
+  margin: 5px;
   background: #CCC;
   display: inline-block;
   cursor: pointer;

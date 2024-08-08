@@ -7,6 +7,7 @@ body {
 }
 
 :root {
+  --grey: #ddd;
   --parrot-color: #8bc53f;
   --light-grey: #32414e;
   --background-overlay: #32414ec2;
@@ -1244,7 +1245,12 @@ p {
 .general-image {
   margin: 20px;
 }
-
+.general-image-1 {
+  margin: 20px;
+}
+.general-image-1 img {
+  width: 200px;
+}
 .general-description {
   display: flex;
   margin-top: 15px;
@@ -3109,21 +3115,25 @@ p {
   background-repeat: no-repeat;
   background-position: center;
 }
-@media(max-width:650px){
-  .first-row{
+
+@media(max-width:650px) {
+  .first-row {
     flex-direction: column;
     justify-content: center;
   }
 }
+
 .first-col {
   padding: 30px;
 }
-@media(max-width:650px){
-  .first-col{
+
+@media(max-width:650px) {
+  .first-col {
     padding: 13px;
 
   }
 }
+
 .first-col h2 {}
 
 .first-col button {
@@ -3137,36 +3147,343 @@ p {
   overflow: hidden;
   border: none;
 }
-.about-design{
+
+.about-design {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: end;
   margin: 10px;
-  padding-top: 10px;
-  margin-bottom: -10px;
 }
-.about-desgin1{
+
+.about-desgin1 {
   width: 85px;
-  margin: 10px;
+  margin: 5px;
   background-color: var(--white-color);
   height: 15px;
 }
-.about-desgin2{
+
+@media(max-width:1110px) {
+  .about-desgin1 {
+    width: 70px;
+  }
+}
+
+@media(max-width:460px) {
+  .about-desgin1 {
+    width: 40px;
+    height: 9px;
+  }
+}
+
+.about-desgin2 {
   width: 115px;
-  margin: 10px;
+  margin: 5px;
   background-color: var(--white-color);
   height: 15px;
 }
+
+@media(max-width:1110px) {
+  .about-desgin2 {
+    width: 100px;
+  }
+}
+
+@media(max-width:460px) {
+  .about-desgin2 {
+    width: 70px;
+    height: 9px;
+  }
+}
+
 .about-row {
   display: flex;
   flex-direction: row;
   background-color: var(--primary-color);
 }
+
+@media(max-width:900px) {
+  .about-row {
+    flex-direction: column;
+  }
+}
+
 .about-head {
   padding: 10px;
 }
-.about-head h1{
-  margin-top: 10px;
+
+.about-head h1 {
+  font-size: 60px;
   margin: 10px;
 }
+
+@media(max-width:1110px) {
+  .about-head h1 {
+    font-size: 43px;
+  }
+}
+
+@media(max-width:460px) {
+  .about-head h1 {
+    font-size: 23px;
+  }
+}
+
 .about-col {
+  width: 50%;
+  color: var(--white-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+@media(max-width:900px) {
+  .about-col {
+    width: 100%;
+  }
+}
+
+.about-col-2 {
   display: flex;
   flex-direction: row;
+  width: 50%;
+  height: 47vh;
+  background-image: url(@/assets/images/ab.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media(max-width:900px) {
+  .about-col-2 {
+    width: 100%;
+  }
+}
+
+@media(max-width:460px) {
+  .about-col-2 {
+    height: 26vh;
+  }
+}
+.about-section{
+  display: flex;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: row;
+}
+@media(max-width:1120px){
+  .about-section {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+.abt-sec-2-dsp{
+  padding: 20px;
+}
+.abt-sec-2-dsp p{
+  font-size: 20px;
+  font-weight: 400;
+}
+.about-sidebar-menu {
+  width: 250px;
+  margin: 20px;
+  font-family: Arial, sans-serif;
+}
+@media(max-width:1120px){
+  .about-sidebar-menu{
+    width: 95%;
+  }
+}
+.about-sidebar-menu ul {
+  list-style-type: none;
+  border: 1px solid var(--grey);
+  padding: 0;
+}
+
+.about-sidebar-menu li {
+  padding: 15px;
+  font-size: 15px;
+  color: var(--dark-grey);
+  border-bottom: 1px solid var(--grey);
+  cursor: pointer;
+  position: relative;
+}
+
+.listing-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.li-icon {
+  transition: transform 0.3s ease;
+}
+
+.rotated {
+  transform: rotate(180deg);
+}
+
+.about-sidebar-menu-dropdown-content {
+  max-height: 0;
+  border: none!important;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.about-sidebar-menu-dropdown-content.open {
+  max-height: 150px; /* Adjust based on content height */
+  transition: max-height 0.6s ease;
+  
+}
+
+.related-pages,
+.contact-box {
+  margin-top: 20px;
+  padding: 10px;
+  background: #f8f8f8;
+  font-size: 12px;
+  border: none;
+  text-align: center;
+}
+
+.contact-box {
+  background: #0071c5;
+  color: white;
+}
+
+.contact-box a {
+  color: white;
+  text-decoration: none;
+}
+
+.contact-box a:hover {
+  text-decoration: underline;
+}
+
+.abt-section-1 {
+  width: 25%;
+}
+@media(max-width:1120px){
+  .abt-section-1{
+    width: 100%;
+  }
+}
+.abt-section-2 {
+  width: 75%;
+}
+@media(max-width:1120px){
+  .abt-section-2{
+    width: 100%;
+  }
+}
+.about-sidebar-menu h3{
+  font-size: 15px;
+}
+.about-bar{
+  width: 37px;
+  height: 5px;
+  display: flex;
+  margin: 10px;
+  background-color: var(--accent-color) ;
+}
+.contact-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contact-box p {
+  margin: 10px;
+  font-size: 16px;
+}
+.contact-box a {
+  margin: 10px;
+  font-size: 16px;
+}
+.about-section-2{
+  padding: 20px;
+}
+.advisor-dsp {
+  margin-bottom: 25px;
+}
+
+.exp-cards-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+}
+@media(max-width:1130px){
+  .exp-cards-container{
+    flex-direction: column;
+  }
+}
+.exp-card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 270px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+@media(max-width:1130px){
+  .exp-card{
+    max-width: 100%;
+  }
+}
+.exp-card img {
+  width: 100%;
+  height: 165px;
+}
+@media(max-width:1130px){
+  .exp-card img{
+    height: auto;
+  }
+}
+.exp-card-content {
+  padding: 15px;
+}
+
+.exp-card h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.exp-card p {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.exp-card a {
+  color: #0071c5;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.exp-card a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .exp-cards-container {
+      flex-direction: column;
+      align-items: center;
+  }
+}
+.about-section-3{
+  padding: 20px;
+}
+.about-section-4{
+  padding: 20px;
+}
+.explore-dsp h3{
+  margin: 20px;
+}
+.e-descrip{
+  margin-top: 15px;
 }
