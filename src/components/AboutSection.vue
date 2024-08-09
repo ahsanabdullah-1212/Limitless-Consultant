@@ -129,8 +129,8 @@
                 <div class="about-section-4">
                     <div class="general-e">
                         <div class="general-row">
-                            <div class="general-image">
-                                <img src="@/assets/images/general-e.jpg" alt="">
+                            <div class="general-image-1">
+                                <img src="@/assets/images/news-1.jpg" alt="">
                             </div>
                             <div class="general-description">
                                 <div class="general-info">
@@ -152,8 +152,8 @@
                     </div>
                     <div class="general-e">
                         <div class="general-row">
-                            <div class="general-image">
-                                <img src="@/assets/images/general-e.jpg" alt="">
+                            <div class="general-image-1">
+                                <img src="@/assets/images/news-2.jpg" alt="">
                             </div>
                             <div class="general-description">
                                 <div class="general-info">
@@ -169,8 +169,8 @@
                     </div>
                     <div class="general-e">
                         <div class="general-row">
-                            <div class="general-image">
-                                <img src="@/assets/images/general-e.jpg" alt="">
+                            <div class="general-image-1">
+                                <img src="@/assets/images/news-3.jpg" alt="">
                             </div>
                             <div class="general-description">
                                 <div class="general-info">

@@ -8,7 +8,7 @@
             </router-link>
         </div>
         <div class="services-C">
-            <h1>Our Industires</h1>
+            <h1>Our Industries</h1>
         </div>
         <div class="services-B-3">
             <div class="serving-image">

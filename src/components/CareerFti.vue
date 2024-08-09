@@ -12,7 +12,7 @@
         </div>
         <div class="career-2">
             <div class="career-2-image">
-                <img src="@/assets/images/Ftiback.jpg" alt="">
+                <img src="@/assets/images/Banner-1.png" alt="">
             </div>
             <div class="career-details-2">
             <h1>Careers in the UK</h1>

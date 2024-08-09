@@ -9,6 +9,8 @@ const routes = [
   { path: '/promotion', name: 'PromotionPage', component: () => import('../pages/PromotionPage.vue') },
   { path: '/accounting', name: 'AccountingPage', component: () => import('../pages/AccountingPage.vue') },
   { path: '/about', name: 'AboutPage', component: () => import('../pages/AboutPage.vue') },
+  { path: '/visit', name: 'VisitVisa', component: () => import('../pages/VisitVisa.vue') },
+  { path: '/contact', name: 'Contactus', component: () => import('../pages/ContactForm.vue') },
 ];
 
 const router = createRouter({

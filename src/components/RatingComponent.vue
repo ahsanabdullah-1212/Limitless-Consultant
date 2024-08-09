@@ -17,7 +17,7 @@
         <div class="main-rating-2">
             <div class="Rating-section-2">
                 <div class="rating-image">
-                    <img src="@/assets/images/Banner-1.jpg">
+                    <img src="@/assets/images/Banner-1.png">
                 </div>
                 <div class="rating-head-2">
                     <h1>The leading global expert firm for organisations facing crisis and transformation</h1>
